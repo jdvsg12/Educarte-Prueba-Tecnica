@@ -1,0 +1,195 @@
+:root {
+    --main-color: #0071B1;
+    --secondary-color: #E65A24;
+    --white-color: #ffffff;
+    --gray-color: #DBDBDB;
+    --gray-text-color: #676767;
+    --copy-background-color: #4D4D4D;
+    --main-font: "Helvetica Neue", Helvetica, Arial, sans
+}
+body {
+    background-color: var(--white-color);
+    margin: 0 auto;
+    padding: 0;
+    font-family: var(--main-font);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+header img{
+    height: 90px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    
+}
+
+nav a{
+    text-decoration: none;
+    padding: 0 2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--main-color)
+}
+.navMessage {
+    color: var(--main-color);
+    line-height: 0rem;
+}
+.boxBanner {
+    display: flex;
+    flex-direction: row;
+}
+.contentBanner {
+    width: 70%;
+}
+.contentBanner img {
+    width: 100%;
+    margin: 0 ;
+}
+.contentForm{ 
+    display: flex;
+    flex-direction: column;
+    background-color: var(--main-color);
+    width: 30%;
+    height: 100%;
+}
+legend{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--white-color);
+    text-align: center;
+    padding: 2rem 0 0 0 ;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 0 2rem;
+}
+
+.textSecond {
+    color: var(--secondary-color)
+}
+form img{
+    padding: 0 2rem 1rem 2rem;
+}
+
+form input {
+    padding: 0.5rem 0.5rem;
+    margin-bottom: 1rem;
+}
+
+form input[type="submit"]{
+    border: none;
+    background-color: var(--secondary-color);
+    padding: 1rem 0;
+    margin: 3.9rem 1rem 2.8rem 1rem;
+    color: var(--white-color);
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.info {
+    display: flex;
+    flex-direction: row;
+    border-bottom: solid 0.5rem var(--main-color);
+}
+.boxInfo {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    gap: 1rem;
+    background-color: var(--gray-color);
+    align-items: center;
+    padding: 0 5rem;
+    margin: 0 0.5rem;
+}
+
+.boxInfo img {
+    height: 80px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5rem;
+    padding: 1rem;
+}
+
+.text h1 {
+    color: var(--main-color);
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 0.1rem;
+}
+
+.text p {
+    color: var(--gray-text-color);
+}
+
+.news {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin: 2rem 0.5rem;
+}
+.boxNews {
+    border: solid 0.1rem var(--gray-color);
+    padding: 1rem;
+}
+
+.boxNews h1 {
+    color: var(--main-color);
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+.boxNews p {
+    color: var(--gray-text-color)
+}
+.boxNews h2 {
+    color: red;
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.contact{
+    color: var(--white-color);
+    background-color: var(--main-color);
+    padding: 1rem
+}
+.contact h1 {
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+.contact li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.5rem 1rem;
+}
+.mesagge{
+    background-color: var(--gray-color);
+    color: var(--gray-text-color);
+    text-align: center;
+    padding: 4rem 5rem
+}
+.copy{
+    background-color: var(--copy-background-color);
+    text-align: center;
+    padding: 0.5rem 1rem;
+    color:#ffffff
+}
